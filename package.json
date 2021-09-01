@@ -1,0 +1,31 @@
+{
+  "name": "testwebserver",
+  "version": "1.0.0",
+  "description": "Ejemplo de servidor web para Ubuntu 20.04",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosortega17/TestWebServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosortega17/TestWebServer/issues"
+  },
+  "homepage": "https://github.com/carlosortega17/TestWebServer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
